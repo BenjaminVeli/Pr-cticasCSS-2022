@@ -1,0 +1,17 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.caja3 {
+    outline: 5px solid red;
+}
+

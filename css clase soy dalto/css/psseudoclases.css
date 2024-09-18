@@ -1,0 +1,43 @@
+*{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s, border 0.5s;
+    border: 3px solid red;
+}
+
+.caja1:hover {
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+    border-color:  blue;
+}
+
+
+
+
+a:link{
+    color: red;
+    padding: 20px;
+}
+
+a:visited {
+    color: violet;
+    background-color: black;
+}
+
+
+.caja {
+    margin: 25px;
+    transition: background 1s;
+}
+
+.caja.active {
+    background: white;
+    padding: 20px;
+}

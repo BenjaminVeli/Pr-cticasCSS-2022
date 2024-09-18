@@ -1,0 +1,36 @@
+Selector Universal
+
+* {
+    color: red;
+}                    
+----------------------------------------
+Selector tipo ejm
+
+h1 {
+    color: blue;
+}                        
+----------------------------------------
+Selector de clase
+
+.nombre{
+    color: blue;
+}                       
+----------------------------------------
+Selector de id
+
+#dni{
+    color:lightblue;
+}
+----------------------------------------
+Selector descendiente
+
+h2 p{
+    color:red
+}
+----------------------------------------
+Selector pseudoclase
+
+b:hover {       /*es para mover el mouse encima y te saldrá el color*/
+    color: red
+}
+

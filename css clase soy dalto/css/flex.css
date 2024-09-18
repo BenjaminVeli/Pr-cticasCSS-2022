@@ -1,0 +1,47 @@
+* {
+    font-family: serif;
+    font-weight: 100;
+    margin: 0;
+    top: 0;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    /* Podemos agregar a los demás flex para que ocupen su mismo espacio 
+    align-items: start; inicia en la parte inicial de la pantalla
+                    end; se alinea en la parte final de la pantalla
+    center; lo centra automaticamente en todo la pantalla
+    align-content: se apega mas a los contenidpos*/
+    /* justify-content: center; centra al container
+                        space-between le da un margen automatico a todas las cajas
+                        space-around  genera espacios entre cajas*/
+    /* flex-wrap: wrap; respeta las dimensiones que proporcione*/
+    /* flex-direction: column-reverse columna hacia abajo,
+     column columna hacia arriba por defecto,
+     row izquierda por defecto,
+      row-reverse; derecha*/
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    height: 100px;
+    min-width: 150px;
+    text-align: center;
+    flex-grow: 1;
+    width: 400px;
+    /* flex-grow: 1; ocupan todo el espacio que exista en la pantalla*/
+}
+
+.red {
+    background: red;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    /* flex-shrink: 2; * sede su espacio para que las demás puedan respetar la resolución*/
+}
+
+.green {
+    background: green;
+    /* align-self: ;  afecta a solo uno*/
+}

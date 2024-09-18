@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.dalto-h2{
+    display: inline;
+}
+
+.dalto-p {
+    display: block;
+}
+
+/***** práctica ****/
+
+.paddingh2{
+    background-color: red;
+    display: inline-block;
+    padding: 10px 50px;
+    height: 100px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 10px solid blue;
+    box-shadow: 2px 4px 10px 0  #000;
+}
+
+.marginh2{
+    /***transform: rotate(90deg);**/
+    background-color: red;
+    display: inline-block;
+    margin: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2em;
+    border: 10px solid blue;
+}

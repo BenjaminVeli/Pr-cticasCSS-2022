@@ -1,0 +1,56 @@
+
+
+
+.texto {
+    padding: 20px;
+    /* display: inline; -> ya no funciona los estilos de first */
+    /*display:inline-block; display: block;    -> si funcionan*/
+}
+
+.texto:first-line {
+    color: blue;
+    font-size: 2em;
+}
+
+.texto::first-letter{
+    color: brown;
+    font-size: 3em;
+}
+
+
+
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::selection{
+    color: red;
+    font-size: 1.4em;
+    background-color: yellow;
+}
+
+
+
+b {
+    padding: 6px;
+    width: 100%;
+}
+
+b::before{
+    content: "me suscribi";
+    color: red;
+}
+
+b::after{
+    content: "todo tendencias";
+    color: red;
+}

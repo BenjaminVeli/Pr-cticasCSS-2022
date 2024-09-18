@@ -1,0 +1,16 @@
+/*medidas relativas*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.contact-form{
+    font-size: 25px;
+    background-color: #000;
+    width: 50vw;
+    height: 50vh;
+} 
+
+.contact-form__h2{
+    font-size: 1em;       /* 1 em = 16px*/
+}
